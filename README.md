@@ -1,0 +1,1 @@
+# This is an open source animal orphanage app developed in django to be used for testing purposes
