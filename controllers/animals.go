@@ -6,7 +6,7 @@ func GetAnimals(c *gin.Context) {
 	//TODO: implement this method to return all animals in the database
 }
 
-func GetAnimalType(c *gin.Context) {
+func GetAnimalClass(c *gin.Context) {
 	//TODO: implement this method to get animal by type from the database
 }
 

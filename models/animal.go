@@ -1,21 +1,21 @@
 package models
 
 type Sex string
-type AnimalType string
+type AnimalClass string
 
 const (
-	Male   Sex        = "Male"
-	Female Sex        = "Female"
-	Dog    AnimalType = "Dog"
-	Cat    AnimalType = "Cat"
+	Male   Sex         = "Male"
+	Female Sex         = "Female"
+	Dog    AnimalClass = "Dog"
+	Cat    AnimalClass = "Cat"
 )
 
 type Animal struct {
-	ID   int
-	Name string
-	Sex  Sex
-	Type AnimalType
-	Age  int
+	ID    int
+	Name  string
+	Sex   Sex
+	Class AnimalClass
+	Age   int
 }
 
 var Animals []Animal
