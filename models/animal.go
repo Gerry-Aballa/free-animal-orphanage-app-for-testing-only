@@ -1,5 +1,7 @@
 package models
 
+import "gorm.io/gorm"
+
 type Sex string
 type AnimalClass string
 
@@ -16,6 +18,7 @@ type Animal struct {
 	Sex   Sex
 	Class AnimalClass
 	Age   int
+	gorm.Model
 }
 
 var Animals []Animal
